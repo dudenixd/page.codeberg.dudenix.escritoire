@@ -27,8 +27,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://codeberg.org/dudenix/escritoire/releases/download/v1.1.0/escritoire-1.1.0.tar.xz",
-                    "sha256": "af5926adb1618a39274de99e8508cd99a12f3080514f0584ad038f40631671a4"
+                    "url": "https://codeberg.org/dudenix/escritoire/releases/download/v1.1.1/escritoire-1.1.1.tar.xz",
+                    "sha256": "41ab6c006d4cc2af71afb026d1381982198a1c1a3ba1181c3be8f111728bd9dc"
                 }
             ]
         }
