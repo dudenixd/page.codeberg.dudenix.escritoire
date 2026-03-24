@@ -1,7 +1,7 @@
 {
     "id": "page.codeberg.dudenix.escritoire",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "48",
+    "runtime-version": "50",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -21,28 +21,14 @@
     },
     "modules": [
         {
-            "name": "blueprint-compiler",
-            "buildsystem": "meson",
-            "cleanup": [
-                "*"
-            ],
-            "sources": [
-                {
-                    "type": "git",
-                    "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                    "tag": "v0.16.0"
-                }
-            ]
-        },
-        {
             "name": "escritoire",
             "buildsystem": "meson",
             "run-tests": false,
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://codeberg.org/dudenix/escritoire/releases/download/v1.0.1/escritoire-1.0.1.tar.xz",
-                    "sha256": "50f28117259d8475ac9849b9053af5e4ea6bbad2a71407e96b2b1c4209a64c21"
+                    "url": "https://codeberg.org/dudenix/escritoire/releases/download/v1.1.1/escritoire-1.1.1.tar.xz",
+                    "sha256": "41ab6c006d4cc2af71afb026d1381982198a1c1a3ba1181c3be8f111728bd9dc"
                 }
             ]
         }
